@@ -53,7 +53,7 @@ def crack_checker():
         body=body+g+'\n'
   
       msg= f"Subject: {subject}\n\n{body}"
-      server.sendmail('crackwatch11@gmail.com','sudb97@gmail.com',msg)
+      server.sendmail('yourmail@domainname.com','sendermai@domainname.com',msg)
       server.quit()
       
 
